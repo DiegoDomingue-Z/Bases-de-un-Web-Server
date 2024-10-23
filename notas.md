@@ -1,3 +1,23 @@
+# HTTP
+* HTTP (Hypertext Transfer Protocol)
+Definición: Protocolo de comunicación para la transferencia de datos en la web.
+Funcionamiento: Facilita la interacción entre un cliente (como un navegador) y un servidor.
+
+* Métodos Comunes:
+
+GET: Solicita datos del servidor.
+POST: Envía datos al servidor.
+PUT: Actualiza recursos existentes.
+DELETE: Elimina recursos.
+
+# PUERTO
+
+Definición: Un puerto es como una puerta de entrada en tu computadora o servidor. Cada puerta (puerto) permite que diferentes aplicaciones o servicios se comuniquen a través de la red.
+
+Punto de Acceso: Cuando un cliente (como un navegador web) quiere hablar con un servidor, lo hace a través de un puerto específico. Por ejemplo, cuando escribes una dirección web, el navegador usa el puerto 80 (HTTP) o 443 (HTTPS) por defecto para conectarse al servidor.
+
+En tu aplicación de Node.js con Express, le dices al servidor que "abra" un puerto para que pueda recibir solicitudes. Por ejemplo, si abres el puerto 3000, el servidor estará esperando las solicitudes que lleguen a ese puerto.
+
 # diferencia entre el web server y el rest server 
 
 * el res server nos va permir servir contenido estatico tambien 
